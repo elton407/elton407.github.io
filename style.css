@@ -215,7 +215,10 @@ input[type=submit] {
 	margin-left: 40px;
 	width: 275px;
 	margin-bottom: 40px;
-	position: relative;
+	position: absolute;
+	top: 100px;
+	right: 340px;
+	left: 0;
 
 
 }
@@ -223,8 +226,10 @@ input[type=submit] {
 	float: right;
 	margin-right: 40px;
 	width: 275px;
-	position: relative;
+	position: absolute;
 	text-align: center;
+	right: 0;
+	top: 100px;
 }
 
 #p3{
@@ -232,8 +237,10 @@ input[type=submit] {
 	float: left;
 	margin-left: 40px;
 	width: 275px;
-	position: relative;
+	position: absolute;
 	text-align: center;
+	top: 400px;
+	left: 0;
 }
 
 #p4
@@ -241,6 +248,9 @@ input[type=submit] {
 	float: right;
 	width: 275px;
 	margin-right: 40px;
+	top: 400px;
+	position: absolute;
+	right: 0px;
 }
 
 #p5 {
@@ -248,8 +258,10 @@ input[type=submit] {
 	margin-left: 40px;
 	width: 275px;
 	margin-bottom: 40px;
-	position: relative;
+	position: absolute;
 	margin-top: 40px;
+	top: 680px;
+	left: 0px;
 }
 
 	#collage{
@@ -261,6 +273,7 @@ input[type=submit] {
 	left: 0;
 	top: 275px;
 	text-align: center;
+	right: 800px;
 
 }
 
@@ -270,42 +283,48 @@ input[type=submit] {
 	padding-right: 174px;
 	margin-left: -10px;
 	color: #ffffff;
+	padding-left: 8px;
+	margin-bottom: 20px;
+	position: absolute;
 
 
 }
 #p2h {
 	position: absolute;
 	left: 300px;
-	top: 275px;
+	top: 295px;
 	
 }
 
 #p2h span {
 	background:#4aaaa5;
 	padding:20px 0;
-	padding-right: 163px;
+	padding-right: 170px;
 	margin-left: -15px;
 	color: #ffffff;
+	top: 10px;
 }
 
 #p3h {
 	position: absolute;
 	left: 0px;
-	top: 600px;
+	top: 595px;
+	text-align: center;
 }
 
 #p3h span {
 	background:#4aaaa5;
 	padding:20px 0;
-	padding-right: 145px;
+	padding-right: 154px;
 	margin-left: -10px;
 	color: #ffffff;
+
 }
 
 #p4h {
 	position: absolute;
 	left: 300px;
-	top: 600px;
+	top: 595px;
 
 }
 
@@ -314,10 +333,10 @@ input[type=submit] {
 	padding-right: 15px;
 	margin-left: -15px;
 	color: #ffffff;
-	padding-right: 65px;
+	padding-right: 79px;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	margin-bottom: 100px;
+	margin-bottom: 105px;
 }
 
 #ph5 {
